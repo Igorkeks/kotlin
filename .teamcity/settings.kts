@@ -1,20 +1,5 @@
-/*import jetbrains.buildServer.configs.kotlin.v2018_2.*
-import jetbrains.buildServer.configs.kotlin.v2018_2.vcs.GitVcsRoot*/
-import jetbrains.buildServer.configs.kotlin.v10.toExtId
 import jetbrains.buildServer.configs.kotlin.v2019_2.*
-import jetbrains.buildServer.configs.kotlin.v2019_2.BuildType
-import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.script
-import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.finishBuildTrigger
-import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.vcs
-import jetbrains.buildServer.configs.kotlin.v2019_2.ui.*
-import jetbrains.buildServer.configs.kotlin.v2019_2.ui.add
 import jetbrains.buildServer.configs.kotlin.v2019_2.vcs.GitVcsRoot
-import jetbrains.buildServer.configs.kotlin.v2019_2.Project
-
-import java.io.File
-import java.io.FileInputStream
-import java.util.*
-import java.time.LocalDateTime
 
 /*
 The settings script is an entry point for defining a TeamCity
